@@ -171,3 +171,30 @@ button.signup {
 .img-container img {
     width: 540px;
 }
+
+@media only screen and (max-width: 600px) {
+    body{
+        overflow-y: auto;
+    }
+    .logo {
+        margin-top: 50px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .form {
+        margin-right: 0;
+    }
+    .welcome {
+        margin-bottom: 30px;
+    }
+    form {
+        width: 80vw;
+    }
+    .img-container {
+        display: none;
+    }
+    .button-group {
+        grid-template-columns: 1fr;
+    }
+}
